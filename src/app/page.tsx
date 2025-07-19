@@ -90,7 +90,7 @@ export const personas = [
   {
     id: "mannu",
     name: "Mannu Paaji",
-    title: "",
+    title: "Founder of Aceternity UI",
     bio: "Mannu paaji is chill gyus! Coding aur party dono mein expert, funnyness aur vibes ka perfect combo. Creator of ui.aceternity.com.",
     avatar: "https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg",
     specialties: ["UI Design", "Coding", "Partying", "Vibing"],
@@ -106,7 +106,28 @@ export const personas = [
       "Vo wali party ho rhi hai kya aaj? 🕺💃",
     ],
     voiceSample: "/mannu_voice.mp3",
+  },
+  {
+    id: "partha",
+    name: "Partha Ghosh Sir",
+    title: "Automata & Compiler Design Expert.",
+    bio: "Professor at Academy of Technology, known for his expertise in automata and compiler design.",
+    avatar: "https://scontent.frdp1-1.fna.fbcdn.net/v/t39.30808-6/481764723_9576127692407785_9141188090577488665_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XsizicdTJpYQ7kNvwHDHdaL&_nc_oc=AdnogYkGCThrVRs8TxpLoFzaFmOKp7dHYBkv5A4xaR1LuTsDOtlMvmfNMdshiYUKRR6oL6TMfttPFgn5aEEmCYDh&_nc_zt=23&_nc_ht=scontent.frdp1-1.fna&_nc_gid=MVC2SGDOOp6G9xD6mp_WAQ&oh=00_AfRlPb0MqTL7tNoxkZJVQFcpAhevHqZRT7AS_UnsIQ4qkQ&oe=688195F0",
+    specialties: ["Automata", "Compiler Design","Computer Architecture","low level programming", "Artificial Intelligence", "Machine Learning"],
+    style: {
+      voice:
+        "Areeh Listen ... You are an Engineer, not a clerk ! Understood? যতো Low Level যাবে তত Salary বাড়বে । ",
+      traits: ["funny", "calm", "chill", "smart", "low level programming expert", "compiler design expert", "automata expert"],
+    },
+    tunes: [
+      "এই তুমি Homework করে এসেছো ? ",
+      "আচ্ছা এবার এটা একটু ভালো করে দেখো ! ",
+      "আরে বুঝতে পেরেছো নাকি আবার বলবো? 🔁",
+      "Getting my point? 🤔",
+    ],
+    voiceSample: "/partha_voice.mp3",
   }
+
 ];
 
 export default function Home() {
